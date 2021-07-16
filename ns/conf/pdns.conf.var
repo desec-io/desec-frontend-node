@@ -1,11 +1,11 @@
-loglevel=5
+loglevel=7
 api=yes
 api-key=${DESEC_NS_APIKEY}
 dname-processing=yes
 setgid=pdns
 setuid=pdns
-slave=yes
-version-string=powerdns
+secondary=yes
+version-string=anonymous
 webserver=yes
 webserver-address=10.16.3.3
 webserver-allow-from=10.16.3.4
